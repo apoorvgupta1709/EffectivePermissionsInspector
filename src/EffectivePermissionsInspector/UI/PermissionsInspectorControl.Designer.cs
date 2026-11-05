@@ -128,8 +128,8 @@ namespace EffectivePermissionsInspector.UI
             this.btnInspectTool.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnInspectTool.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
             this.btnInspectTool.Name = "btnInspectTool";
-            this.btnInspectTool.Size = new System.Drawing.Size(227, 28);
-            this.btnInspectTool.Text = "🔍  Inspect Effective Access";
+            this.btnInspectTool.Size = new System.Drawing.Size(200, 28);
+            this.btnInspectTool.Text = "Inspect Effective Access";
             this.btnInspectTool.Click += new System.EventHandler(this.btnInspect_Click);
             // 
             // toolStripSeparator1
@@ -142,7 +142,7 @@ namespace EffectivePermissionsInspector.UI
             this.btnExportHtml.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(65)))), ((int)(((byte)(85)))));
             this.btnExportHtml.Name = "btnExportHtml";
             this.btnExportHtml.Size = new System.Drawing.Size(185, 28);
-            this.btnExportHtml.Text = "📊  Export Security Audit (HTML)";
+            this.btnExportHtml.Text = "Export Security Audit (HTML)";
             this.btnExportHtml.Click += new System.EventHandler(this.btnExportHtml_Click);
             // 
             // btnExportCsv
@@ -150,7 +150,7 @@ namespace EffectivePermissionsInspector.UI
             this.btnExportCsv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(65)))), ((int)(((byte)(85)))));
             this.btnExportCsv.Name = "btnExportCsv";
             this.btnExportCsv.Size = new System.Drawing.Size(130, 28);
-            this.btnExportCsv.Text = "📁  Export CSV Data";
+            this.btnExportCsv.Text = "Export CSV Data";
             this.btnExportCsv.Click += new System.EventHandler(this.btnExportCsv_Click);
             // 
             // toolStripSeparator2
@@ -163,7 +163,7 @@ namespace EffectivePermissionsInspector.UI
             this.btnSimulateTab.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(119)))), ((int)(((byte)(6)))));
             this.btnSimulateTab.Name = "btnSimulateTab";
             this.btnSimulateTab.Size = new System.Drawing.Size(175, 28);
-            this.btnSimulateTab.Text = "🔮  What-If Simulation Studio";
+            this.btnSimulateTab.Text = "What-If Simulation Studio";
             this.btnSimulateTab.Click += new System.EventHandler(this.btnSimulateTab_Click);
             // 
             // btnSponsor
@@ -194,10 +194,10 @@ namespace EffectivePermissionsInspector.UI
             // 
             this.tblInputs.ColumnCount = 5;
             this.tblInputs.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
-            this.tblInputs.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
-            this.tblInputs.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 90F));
+            this.tblInputs.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tblInputs.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 95F));
             this.tblInputs.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tblInputs.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 175F));
+            this.tblInputs.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
             this.tblInputs.Controls.Add(this.lblUser, 0, 0);
             this.tblInputs.Controls.Add(this.txtSearchUser, 1, 0);
             this.tblInputs.Controls.Add(this.btnSearchUser, 2, 0);
@@ -238,22 +238,23 @@ namespace EffectivePermissionsInspector.UI
             this.txtSearchUser.Location = new System.Drawing.Point(113, 11);
             this.txtSearchUser.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.txtSearchUser.Name = "txtSearchUser";
-            this.txtSearchUser.Size = new System.Drawing.Size(154, 29);
+            this.txtSearchUser.Size = new System.Drawing.Size(144, 29);
             this.txtSearchUser.TabIndex = 1;
             this.txtSearchUser.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearchUser_KeyDown);
             // 
             // btnSearchUser
             // 
-            this.btnSearchUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.btnSearchUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(65)))), ((int)(((byte)(85)))));
+            this.btnSearchUser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSearchUser.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnSearchUser.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
+            this.btnSearchUser.FlatAppearance.BorderSize = 0;
             this.btnSearchUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearchUser.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.btnSearchUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
-            this.btnSearchUser.Location = new System.Drawing.Point(273, 8);
-            this.btnSearchUser.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
+            this.btnSearchUser.ForeColor = System.Drawing.Color.White;
+            this.btnSearchUser.Location = new System.Drawing.Point(263, 8);
+            this.btnSearchUser.Margin = new System.Windows.Forms.Padding(3, 8, 6, 8);
             this.btnSearchUser.Name = "btnSearchUser";
-            this.btnSearchUser.Size = new System.Drawing.Size(84, 36);
+            this.btnSearchUser.Size = new System.Drawing.Size(86, 36);
             this.btnSearchUser.TabIndex = 2;
             this.btnSearchUser.Text = "Filter";
             this.btnSearchUser.UseVisualStyleBackColor = false;
@@ -269,26 +270,27 @@ namespace EffectivePermissionsInspector.UI
             this.cboUsers.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.cboUsers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.cboUsers.FormattingEnabled = true;
-            this.cboUsers.Location = new System.Drawing.Point(363, 11);
+            this.cboUsers.Location = new System.Drawing.Point(358, 11);
             this.cboUsers.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.cboUsers.Name = "cboUsers";
-            this.cboUsers.Size = new System.Drawing.Size(583, 29);
+            this.cboUsers.Size = new System.Drawing.Size(573, 29);
             this.cboUsers.TabIndex = 3;
             // 
             // btnLoadUsers
             // 
-            this.btnLoadUsers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.btnLoadUsers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(118)))), ((int)(((byte)(110)))));
+            this.btnLoadUsers.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLoadUsers.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnLoadUsers.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
+            this.btnLoadUsers.FlatAppearance.BorderSize = 0;
             this.btnLoadUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLoadUsers.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.btnLoadUsers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
-            this.btnLoadUsers.Location = new System.Drawing.Point(952, 8);
-            this.btnLoadUsers.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
+            this.btnLoadUsers.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
+            this.btnLoadUsers.ForeColor = System.Drawing.Color.White;
+            this.btnLoadUsers.Location = new System.Drawing.Point(937, 8);
+            this.btnLoadUsers.Margin = new System.Windows.Forms.Padding(6, 8, 3, 8);
             this.btnLoadUsers.Name = "btnLoadUsers";
-            this.btnLoadUsers.Size = new System.Drawing.Size(169, 36);
+            this.btnLoadUsers.Size = new System.Drawing.Size(184, 36);
             this.btnLoadUsers.TabIndex = 4;
-            this.btnLoadUsers.Text = "↻  Load Users";
+            this.btnLoadUsers.Text = "Load Users";
             this.btnLoadUsers.UseVisualStyleBackColor = false;
             this.btnLoadUsers.Click += new System.EventHandler(this.btnLoadUsers_Click);
             // 
@@ -316,7 +318,7 @@ namespace EffectivePermissionsInspector.UI
             this.txtRecordUrlOrId.Location = new System.Drawing.Point(113, 64);
             this.txtRecordUrlOrId.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.txtRecordUrlOrId.Name = "txtRecordUrlOrId";
-            this.txtRecordUrlOrId.Size = new System.Drawing.Size(833, 29);
+            this.txtRecordUrlOrId.Size = new System.Drawing.Size(818, 29);
             this.txtRecordUrlOrId.TabIndex = 6;
             // 
             // btnInspect
@@ -326,14 +328,14 @@ namespace EffectivePermissionsInspector.UI
             this.btnInspect.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnInspect.FlatAppearance.BorderSize = 0;
             this.btnInspect.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInspect.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
+            this.btnInspect.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnInspect.ForeColor = System.Drawing.Color.White;
-            this.btnInspect.Location = new System.Drawing.Point(952, 60);
-            this.btnInspect.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
+            this.btnInspect.Location = new System.Drawing.Point(937, 60);
+            this.btnInspect.Margin = new System.Windows.Forms.Padding(6, 8, 3, 8);
             this.btnInspect.Name = "btnInspect";
-            this.btnInspect.Size = new System.Drawing.Size(169, 38);
+            this.btnInspect.Size = new System.Drawing.Size(184, 38);
             this.btnInspect.TabIndex = 7;
-            this.btnInspect.Text = "🔍  Inspect Access";
+            this.btnInspect.Text = "Inspect Access";
             this.btnInspect.UseVisualStyleBackColor = false;
             this.btnInspect.Click += new System.EventHandler(this.btnInspect_Click);
             // 
