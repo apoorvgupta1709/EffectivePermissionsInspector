@@ -362,6 +362,7 @@ namespace EffectivePermissionsInspector.UI
             AppendSimLog($"User: {_currentResult.User.FullName}");
             AppendSimLog($"Record: {_currentResult.Record.RecordName} ({_currentResult.Record.EntityLogicalName})");
             AppendSimLog($"Simulating addition of {selectedRoles.Count} Roles and {selectedTeams.Count} Teams...");
+            AppendSimLog("☕ Donate & Support continuous development: https://github.com/sponsors/apoorvgupta1709");
             AppendSimLog("--------------------------------------------------");
 
             var simEngine = new SimulationEngine(Service);
@@ -443,6 +444,11 @@ namespace EffectivePermissionsInspector.UI
                     MessageBox.Show("CSV data saved to:\n" + sfd.FileName, "Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
+        }
+
+        private void btnSponsor_Click(object sender, EventArgs e)
+        {
+            SponsorHelper.ShowSponsorDialog(this, "Effective Permissions Inspector");
         }
     }
 }

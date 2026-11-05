@@ -24,6 +24,7 @@ namespace EffectivePermissionsInspector.UI
             this.btnExportCsv = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.btnSimulateTab = new System.Windows.Forms.ToolStripButton();
+            this.btnSponsor = new System.Windows.Forms.ToolStripButton();
             this.pnlInputs = new System.Windows.Forms.Panel();
             this.tblInputs = new System.Windows.Forms.TableLayoutPanel();
             this.lblUser = new System.Windows.Forms.Label();
@@ -114,7 +115,8 @@ namespace EffectivePermissionsInspector.UI
             this.btnExportHtml,
             this.btnExportCsv,
             this.toolStripSeparator2,
-            this.btnSimulateTab});
+            this.btnSimulateTab,
+            this.btnSponsor});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(8, 4, 8, 4);
@@ -163,6 +165,18 @@ namespace EffectivePermissionsInspector.UI
             this.btnSimulateTab.Size = new System.Drawing.Size(175, 28);
             this.btnSimulateTab.Text = "🔮  What-If Simulation Studio";
             this.btnSimulateTab.Click += new System.EventHandler(this.btnSimulateTab_Click);
+            // 
+            // btnSponsor
+            // 
+            this.btnSponsor.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.btnSponsor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
+            this.btnSponsor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnSponsor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(39)))), ((int)(((byte)(119)))));
+            this.btnSponsor.Name = "btnSponsor";
+            this.btnSponsor.Size = new System.Drawing.Size(160, 28);
+            this.btnSponsor.Text = "☕ Donate / Support";
+            this.btnSponsor.ToolTipText = "Support developer & donate to continuous development";
+            this.btnSponsor.Click += new System.EventHandler(this.btnSponsor_Click);
             // 
             // pnlInputs
             // 
@@ -922,6 +936,7 @@ namespace EffectivePermissionsInspector.UI
         private System.Windows.Forms.ToolStripButton btnExportCsv;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripButton btnSimulateTab;
+        private System.Windows.Forms.ToolStripButton btnSponsor;
         private System.Windows.Forms.Panel pnlInputs;
         private System.Windows.Forms.TableLayoutPanel tblInputs;
         private System.Windows.Forms.Label lblUser;
