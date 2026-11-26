@@ -14,7 +14,7 @@
     <!-- NuGet Package Metadata -->
     <IsPackable>true</IsPackable>
     <PackageId>EffectivePermissionsInspector</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.2</Version>
     <Title>Effective Permissions Inspector</Title>
     <Authors>Apoorv Gupta</Authors>
     <Company>Apoorv Gupta</Company>
@@ -22,9 +22,10 @@
     <PackageProjectUrl>https://github.com/apoorvgupta1709/EffectivePermissionsInspector</PackageProjectUrl>
     <RepositoryUrl>https://github.com/apoorvgupta1709/EffectivePermissionsInspector</RepositoryUrl>
     <PackageTags>XrmToolBox;XrmToolBoxPlugin;Dataverse;Dynamics365;PowerPlatform;Security;Permissions;POA;AccessRights</PackageTags>
-    <PackageReleaseNotes>Initial public release of Effective Permissions Inspector for XrmToolBox.</PackageReleaseNotes>
+    <PackageReleaseNotes>Release v1.0.2: Define required IconUrl and optimized logo metadata for XrmToolBox Tool Library compliance.</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl>https://raw.githubusercontent.com/apoorvgupta1709/EffectivePermissionsInspector/main/icon.png</PackageIconUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
 
     <!-- Place output inside lib\net48\Plugins for XrmToolBox Tool Library -->
