@@ -22,7 +22,7 @@ namespace PermissionsInspector
 
         // IGitHubPlugin implementation
         public string UserName => "apoorvgupta1709";
-        public string RepositoryName => "PermissionsInspector";
+        public string RepositoryName => "EffectivePermissionsInspector";
 
         // IPayPalPlugin implementation (XrmToolBox native donation button)
         public string DonationDescription => "Support Permissions Inspector & Unlock Pro Features";
