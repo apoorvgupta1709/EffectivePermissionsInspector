@@ -1,4 +1,4 @@
-namespace EffectivePermissionsInspector.UI
+namespace PermissionsInspector.UI
 {
     partial class PermissionsInspectorControl
     {

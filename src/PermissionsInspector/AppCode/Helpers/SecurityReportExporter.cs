@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 using System.Text;
-using EffectivePermissionsInspector.AppCode.Models;
+using PermissionsInspector.AppCode.Models;
 
-namespace EffectivePermissionsInspector.AppCode.Helpers
+namespace PermissionsInspector.AppCode.Helpers
 {
     public static class SecurityReportExporter
     {
@@ -120,7 +120,7 @@ namespace EffectivePermissionsInspector.AppCode.Helpers
             sb.AppendLine("      </tbody>");
             sb.AppendLine("    </table>");
             sb.AppendLine("    <div style='margin-top:40px; padding:20px; background:#fdf2f8; border:1px solid #fbcfe8; border-radius:12px; text-align:center;'>");
-            sb.AppendLine("      <h3 style='margin:0 0 6px 0; color:#db2777; font-size:16px;'>💖 Support Effective Permissions Inspector Continuous Development</h3>");
+            sb.AppendLine("      <h3 style='margin:0 0 6px 0; color:#db2777; font-size:16px;'>💖 Support Permissions Inspector Continuous Development</h3>");
             sb.AppendLine("      <p style='margin:0 0 12px 0; color:#64748b; font-size:13px;'>If this tool saved your team hours of troubleshooting Dataverse security, please consider backing development on GitHub Sponsors.</p>");
             sb.AppendLine("      <a href='https://github.com/sponsors/apoorvgupta1709' target='_blank' style='display:inline-block; background:#db2777; color:#fff; font-weight:700; padding:10px 24px; border-radius:8px; text-decoration:none; font-size:13px;'>Sponsor Apoorv Gupta on GitHub Sponsors →</a>");
             sb.AppendLine("    </div>");

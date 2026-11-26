@@ -7,11 +7,11 @@ using Label = System.Windows.Forms.Label;
 using Microsoft.Xrm.Sdk;
 using XrmToolBox.Extensibility;
 using XrmToolBox.Extensibility.Interfaces;
-using EffectivePermissionsInspector.AppCode.Helpers;
-using EffectivePermissionsInspector.AppCode.Models;
-using EffectivePermissionsInspector.AppCode.Services;
+using PermissionsInspector.AppCode.Helpers;
+using PermissionsInspector.AppCode.Models;
+using PermissionsInspector.AppCode.Services;
 
-namespace EffectivePermissionsInspector.UI
+namespace PermissionsInspector.UI
 {
     public partial class PermissionsInspectorControl : PluginControlBase, IXrmToolBoxPluginControl
     {
@@ -448,7 +448,7 @@ namespace EffectivePermissionsInspector.UI
 
         private void btnSponsor_Click(object sender, EventArgs e)
         {
-            SponsorHelper.ShowSponsorDialog(this, "Effective Permissions Inspector");
+            SponsorHelper.ShowSponsorDialog(this, "Permissions Inspector");
         }
     }
 }

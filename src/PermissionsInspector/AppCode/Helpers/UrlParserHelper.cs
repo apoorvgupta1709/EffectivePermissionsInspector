@@ -1,7 +1,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace EffectivePermissionsInspector.AppCode.Helpers
+namespace PermissionsInspector.AppCode.Helpers
 {
     public static class UrlParserHelper
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace EffectivePermissionsInspector.AppCode.Models
+namespace PermissionsInspector.AppCode.Models
 {
     public class EffectivePermissionAnalysisResult
     {

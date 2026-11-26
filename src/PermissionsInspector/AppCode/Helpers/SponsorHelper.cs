@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace EffectivePermissionsInspector.AppCode.Helpers
+namespace PermissionsInspector.AppCode.Helpers
 {
     public static class SponsorHelper
     {

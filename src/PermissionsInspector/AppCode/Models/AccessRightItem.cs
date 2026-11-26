@@ -1,6 +1,6 @@
 using System;
 
-namespace EffectivePermissionsInspector.AppCode.Models
+namespace PermissionsInspector.AppCode.Models
 {
     public class AccessRightItem
     {

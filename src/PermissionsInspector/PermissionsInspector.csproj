@@ -5,24 +5,24 @@
     <UseWindowsForms>true</UseWindowsForms>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
-    <AssemblyName>EffectivePermissionsInspector</AssemblyName>
-    <RootNamespace>EffectivePermissionsInspector</RootNamespace>
+    <AssemblyName>PermissionsInspector</AssemblyName>
+    <RootNamespace>PermissionsInspector</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 
     <!-- NuGet Package Metadata -->
     <IsPackable>true</IsPackable>
-    <PackageId>EffectivePermissionsInspector</PackageId>
-    <Version>1.0.2</Version>
-    <Title>Effective Permissions Inspector</Title>
+    <PackageId>PermissionsInspector</PackageId>
+    <Version>1.0.0</Version>
+    <Title>Permissions Inspector</Title>
     <Authors>Apoorv Gupta</Authors>
     <Company>Apoorv Gupta</Company>
     <Description>Diagnose 'Why Can't John Edit This Record?' in Microsoft Dataverse across Security Roles, Team inheritance, BU depth, POA sharing, and Field-Level Security.</Description>
     <PackageProjectUrl>https://github.com/apoorvgupta1709/EffectivePermissionsInspector</PackageProjectUrl>
     <RepositoryUrl>https://github.com/apoorvgupta1709/EffectivePermissionsInspector</RepositoryUrl>
     <PackageTags>XrmToolBox;XrmToolBoxPlugin;Dataverse;Dynamics365;PowerPlatform;Security;Permissions;POA;AccessRights</PackageTags>
-    <PackageReleaseNotes>Release v1.0.2: Define required IconUrl and optimized logo metadata for XrmToolBox Tool Library compliance.</PackageReleaseNotes>
+    <PackageReleaseNotes>Release v1.0.0: Initial release of Permissions Inspector for XrmToolBox.</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl>https://raw.githubusercontent.com/apoorvgupta1709/EffectivePermissionsInspector/main/icon.png</PackageIconUrl>

@@ -4,9 +4,9 @@ using System.Linq;
 using Microsoft.Crm.Sdk.Messages;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
-using EffectivePermissionsInspector.AppCode.Models;
+using PermissionsInspector.AppCode.Models;
 
-namespace EffectivePermissionsInspector.AppCode.Services
+namespace PermissionsInspector.AppCode.Services
 {
     public class SharingAnalyzer
     {

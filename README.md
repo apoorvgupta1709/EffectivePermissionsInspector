@@ -1,4 +1,4 @@
-# 🛡️ "Why Can't John Edit This Record?" — Effective Permissions Inspector
+# 🛡️ "Why Can't John Edit This Record?" — Permissions Inspector
 
 > The **#1 support ticket solver in Microsoft Dynamics 365 & Power Apps**. Instantly unpack the complex Dataverse security model to reveal exactly why a user can or cannot see, edit, delete, or share any specific record.
 
@@ -63,14 +63,14 @@ Admins routinely waste **30 to 90 minutes per ticket** cross-referencing roles, 
 ## 🏗️ Project Architecture
 
 ```
-EffectivePermissionsInspector/
-├── EffectivePermissionsInspector.sln
+PermissionsInspector/
+├── PermissionsInspector.sln
 ├── README.md
 ├── docs/
 │   └── ARCHITECTURE.md
 └── src/
-    └── EffectivePermissionsInspector/
-        ├── EffectivePermissionsInspector.csproj
+    └── PermissionsInspector/
+        ├── PermissionsInspector.csproj
         ├── PluginInfo.cs                           # MEF Export for XrmToolBox
         ├── Properties/
         │   └── AssemblyInfo.cs
@@ -101,14 +101,14 @@ EffectivePermissionsInspector/
 
 ## 🛠️ How to Build and Deploy to XrmToolBox
 
-1. Open `EffectivePermissionsInspector\EffectivePermissionsInspector.sln` in **Visual Studio**.
+1. Open `PermissionsInspector\PermissionsInspector.sln` in **Visual Studio**.
 2. Build the project in **Release** mode (`Ctrl + Shift + B`).
 3. Copy the compiled files:
    ```
-   bin\Release\EffectivePermissionsInspector.dll
+   bin\Release\PermissionsInspector.dll
    ```
    Into your XrmToolBox plugins folder:
    ```
-   %AppData%\MscrmTools\XrmToolBox\Plugins\EffectivePermissionsInspector\
+   %AppData%\MscrmTools\XrmToolBox\Plugins\PermissionsInspector\
    ```
-4. Launch **XrmToolBox**, connect to your Dataverse environment, and search for **"Effective Permissions Inspector"**.
+4. Launch **XrmToolBox**, connect to your Dataverse environment, and search for **"Permissions Inspector"**.

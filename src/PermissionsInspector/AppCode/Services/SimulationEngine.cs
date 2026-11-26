@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
-using EffectivePermissionsInspector.AppCode.Models;
+using PermissionsInspector.AppCode.Models;
 
-namespace EffectivePermissionsInspector.AppCode.Services
+namespace PermissionsInspector.AppCode.Services
 {
     public class SimulationEngine
     {
