@@ -446,6 +446,18 @@ namespace PermissionsInspector.UI
             }
         }
 
+        private void btnLinkedIn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo("https://www.linkedin.com/in/apoorv-gupta-298825185/") { UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open LinkedIn profile: " + ex.Message, "LinkedIn", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
         private void btnSponsor_Click(object sender, EventArgs e)
         {
             SponsorHelper.ShowSponsorDialog(this, "Permissions Inspector");

@@ -24,6 +24,7 @@ namespace PermissionsInspector.UI
             this.btnExportCsv = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.btnSimulateTab = new System.Windows.Forms.ToolStripButton();
+            this.btnLinkedIn = new System.Windows.Forms.ToolStripButton();
             this.btnSponsor = new System.Windows.Forms.ToolStripButton();
             this.pnlInputs = new System.Windows.Forms.Panel();
             this.tblInputs = new System.Windows.Forms.TableLayoutPanel();
@@ -116,6 +117,7 @@ namespace PermissionsInspector.UI
             this.btnExportCsv,
             this.toolStripSeparator2,
             this.btnSimulateTab,
+            this.btnLinkedIn,
             this.btnSponsor});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
@@ -165,6 +167,17 @@ namespace PermissionsInspector.UI
             this.btnSimulateTab.Size = new System.Drawing.Size(175, 28);
             this.btnSimulateTab.Text = "What-If Simulation Studio";
             this.btnSimulateTab.Click += new System.EventHandler(this.btnSimulateTab_Click);
+            // 
+            // btnLinkedIn
+            // 
+            this.btnLinkedIn.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.btnLinkedIn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnLinkedIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(102)))), ((int)(((byte)(194)))));
+            this.btnLinkedIn.Name = "btnLinkedIn";
+            this.btnLinkedIn.Size = new System.Drawing.Size(100, 28);
+            this.btnLinkedIn.Text = "🔗 LinkedIn";
+            this.btnLinkedIn.ToolTipText = "Connect with Apoorv Gupta on LinkedIn (https://www.linkedin.com/in/apoorv-gupta-298825185/)";
+            this.btnLinkedIn.Click += new System.EventHandler(this.btnLinkedIn_Click);
             // 
             // btnSponsor
             // 
@@ -938,6 +951,7 @@ namespace PermissionsInspector.UI
         private System.Windows.Forms.ToolStripButton btnExportCsv;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripButton btnSimulateTab;
+        private System.Windows.Forms.ToolStripButton btnLinkedIn;
         private System.Windows.Forms.ToolStripButton btnSponsor;
         private System.Windows.Forms.Panel pnlInputs;
         private System.Windows.Forms.TableLayoutPanel tblInputs;

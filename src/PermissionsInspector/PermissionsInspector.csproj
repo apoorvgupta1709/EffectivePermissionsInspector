@@ -14,7 +14,7 @@
     <!-- NuGet Package Metadata -->
     <IsPackable>true</IsPackable>
     <PackageId>EffectivePermissionsInspector</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Title>Permissions Inspector</Title>
     <Authors>Apoorv Gupta</Authors>
     <Company>Apoorv Gupta</Company>
